@@ -84,63 +84,37 @@
 <hr> <!-- Horizontal rule -->
 <br>  
 
+<div id="slideshow">
+    <img id="image" src="image1.jpg" alt="Image">
+  </div>
+
+  <script>
+    var images = ['https://kkramer.io/assets/images/se01.jpg', 'https://kkramer.io/assets/images/se02.jpg', 'https://kkramer.io/assets/images/se03.jpg','https://kkramer.io/assets/images/se04.jpg']; // Add your image file names to the array
+    var currentIndex = 0;
+
+    function changeImage() {
+      var image = document.getElementById('image');
+      image.src = images[currentIndex];
+
+      currentIndex++;
+      if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+    }
+
+    setInterval(changeImage, 1000); // Change image every 1 second (1000 milliseconds)
+  </script>
+  <br>
 
 
   <div class="grid-container">
-    <div id="slideshow">
-        <img id="image" src="image1.jpg" alt="Image">
-      </div>
-    
-      <script>
-        var images = ['https://kkramer.io/assets/images/se01.jpg', 'https://kkramer.io/assets/images/se02.jpg', 'https://kkramer.io/assets/images/se03.jpg','https://kkramer.io/assets/images/se04.jpg']; // Add your image file names to the array
-        var currentIndex = 0;
-    
-        function changeImage() {
-          var image = document.getElementById('image');
-          image.src = images[currentIndex];
-    
-          currentIndex++;
-          if (currentIndex >= images.length) {
-            currentIndex = 0;
-          }
-        }
-    
-        setInterval(changeImage, 1000); // Change image every 1 second (1000 milliseconds)
-      </script>
     <a href="project1.html" class="grid-item">
       <img class="thumbnail" src="https://kkramer.io/assets/images/smripplethumb.gif" alt="Image 1">
    
       <h2 class="title">Project 1</h2> 
       <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
     </a>
-    
-    <a href="suttonHoo.html" class="grid-item">
-      <img class="thumbnail" src="https://kkramer.io/assets/images/tarot.png" alt="Image 2">
-      <h2 class="title">The British Museum: Sutton Hoo</h2> 
-      <h3 class="title">Identity and Digital Advertistemnts</h3>
-    </a>
-    <a href="project3.html" class="grid-item">
-      <img class="thumbnail" src="https://kkramer.io/assets/images/yukon_lakeRnd.jpg" alt="Image 3">
-      <h2 class="title">Project 3</h2> 
-      <h3 class="title">Lorem ipsum dolor sit amet.</h3>
-    </a>
-    <a href="project1.html" class="grid-item">
-        <img class="thumbnail" src="https://kkramer.io/assets/images/tarot.png" alt="Image 1">
-     
-        <h2 class="title">Project 1</h2> 
-        <h3 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nobis!</h3>
-      </a>
-      
-      <a href="project2.html" class="grid-item">
-        <img class="thumbnail" src="https://kkramer.io/assets/images/yukon_lakeRnd.jpg" alt="Image 2">
-        <h2 class="title">Project 2</h2> 
-        <h3 class="title">Lorem, ipsum dolor.</h3>
-      </a>
-      <a href="project3.html" class="grid-item">
-        <img class="thumbnail" src="https://kkramer.io/assets/images/smripplethumb.gif" alt="Image 3">
-        <h2 class="title">Project 3</h2> 
-        <h3 class="title">Lorem ipsum dolor sit amet consectetur.</h3>
-      </a>
+
     <!-- Add more grid items as needed -->
   </div>
 </body>
