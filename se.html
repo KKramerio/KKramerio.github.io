@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="https://use.typekit.net/vbr7wvk.css">
   <style>
     #slideshow {
-      width: 50vw; /* Set the width relative to the viewport width */
-      height: 50vh; /* Set the height relative to the viewport height */
+      width: 500px; /* Set the width relative to the viewport width */
+    
     }
 
     #image {
-      width: 100%;
-      height: 100%;
+      width: 75%;
+      height: 75%;
       object-fit: cover;
     }
 
@@ -89,12 +89,12 @@
 <br>
 <hr> <!-- Horizontal rule -->
 <br>  
-
+<div class="grid-container">
 <div id="slideshow">
     <img id="image" src="image1.jpg" alt="Image">
   </div>
 
-  <div class="grid-container">
+ 
     <a href="project1.html" class="grid-item">
       <img class="thumbnail" src="https://kkramer.io/assets/images/smripplethumb.gif" alt="Image 1">
    
@@ -102,7 +102,7 @@
       <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
     </a>
     <!-- Add more grid items as needed -->
-  </div>
+  
   <script>
     var images = ['https://kkramer.io/assets/images/se01.jpg', 'https://kkramer.io/assets/images/se02.jpg', 'https://kkramer.io/assets/images/se03.jpg','https://kkramer.io/assets/images/se04.jpg']; // Add your image file names to the array
     var currentIndex = 0;
@@ -119,5 +119,6 @@
 
     setInterval(changeImage, 1000); // Change image every 1 second (1000 milliseconds)
   </script>
+  </div>
 </body>
 </html>
