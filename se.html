@@ -7,9 +7,7 @@
   <link rel="stylesheet" href="https://kkramer.io/assets/css/style.css">
   <link rel="icon" href="https://kkramer.io/assets/images/sun.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://use.typekit.net/vbr7wvk.css">
-  <style>
-   
-  </style>
+  <script src="path/to/your/script.js"></script>
 </head>
 <body>
 <h1>
@@ -40,30 +38,18 @@ Sea Empress
      
         <h2 class="title">Sea Empress:Tide</h2> 
         <h3 class="title">Link to digital publication</h3>
-      </a>
-      
+      </a>   
 </div>
 <div id="slideshow">
-    <img id="image" src="image1.jpg" alt="Image">
-  </div>
+  <img id="image" src="image1.jpg" alt="Image">
+</div>
 
-  <script>
-    var images = ['https://kkramer.io/assets/images/se01.jpg', 'https://kkramer.io/assets/images/se02.jpg', 'https://kkramer.io/assets/images/se03.jpg','https://kkramer.io/assets/images/se04.jpg']; // Add your image file names to the array
-    var currentIndex = 0;
+<script>
+  var images = ['https://kkramer.io/assets/images/se01.jpg', 'https://kkramer.io/assets/images/se02.jpg', 'https://kkramer.io/assets/images/se03.jpg', 'https://kkramer.io/assets/images/se04.jpg']; // Add your image URLs here
+  changeImage(images);
+</script>
 
-    function changeImage() {
-      var image = document.getElementById('image');
-      image.src = images[currentIndex];
 
-      currentIndex++;
-      if (currentIndex >= images.length) {
-        currentIndex = 0;
-      }
-    }
-
-    setInterval(changeImage, 3000); // Change image every 1 second (1000 milliseconds)
-  </script>
-  <br>
 
 
   
