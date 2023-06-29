@@ -1,3 +1,8 @@
+#slideshow {
+    width: 300px;
+    height: 200px;
+  }
+
 h1{
     color: #120000; /* Text color */
     font-family: "itc-slimbach", sans-serif;
