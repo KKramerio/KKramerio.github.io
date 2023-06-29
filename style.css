@@ -24,6 +24,14 @@ h1{
     font-size: 16px;
     line-height: 1.2;
   }
+  h4.title {
+    margin-top: 10px;
+    color:#404040;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+  }
  
   a {
     text-decoration: none; /* Remove underline */
