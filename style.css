@@ -1,15 +1,4 @@
 
-.slideshow-container {
-    max-width: 100%; /* Set the maximum width of the container */
-  }
-  
-  #image {
-    max-width: 100%; /* Set the maximum width of the image */
-    height: auto; /* Allow the height to adjust automatically */
-    display: block; /* Ensure the image is treated as a block element */
-    margin: 0 auto; /* Center the image horizontally within the container */
-  }
-  
 h1{
     color: #120000; /* Text color */
     font-family: "itc-slimbach", sans-serif;
@@ -19,6 +8,23 @@ h1{
     text-align: left; /* Text alignment */
     /* Additional styles you can modify or add */
   }
+  h2.title {
+    margin-top: 10px;
+    color:#000;
+      font-family: neue-haas-grotesk-display, sans-serif;
+      font-size: 20px;
+      line-height: 1.0;
+  }
+  h3.title {
+    margin-top: 10px;
+    color:#404040;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+ 
   a {
     text-decoration: none; /* Remove underline */
     color: #000; /* Change link color */
@@ -34,6 +40,17 @@ h1{
   margin: 20px auto; /* Margin */
   /* Additional styles */
 
+    }
+    .slideshow-container {
+      max-width: 100%; /* Set the maximum width of the container */
+      height: auto; /* Allow the height to adjust automatically */
+    }
+    
+    #image {
+      max-width: 100%; /* Set the maximum width of the image */
+      height: auto; /* Allow the height to adjust automatically */
+      display: block; /* Ensure the image is treated as a block element */
+      margin: 0 auto; /* Center the image horizontally within the container */
     }
   .grid-container {
 
@@ -67,7 +84,4 @@ h1{
     font-size: 16px;
     line-height: 1.2;
   }
-  hr {
-color: hsl(162, 100%, 51%);
-/* Additional styles */
-}
+ 
