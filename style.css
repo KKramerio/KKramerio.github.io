@@ -1,3 +1,4 @@
+
 .slideshow-container {
     max-width: 100%; /* Set the maximum width of the container */
     height: auto; /* Allow the height to adjust automatically */
@@ -10,9 +11,6 @@
     margin: 0 auto; /* Center the image horizontally within the container */
   }
   
-
-
-
 h1{
     color: #120000; /* Text color */
     font-family: "itc-slimbach", sans-serif;
