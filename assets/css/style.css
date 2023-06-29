@@ -60,13 +60,14 @@ h1{
       display: block; /* Ensure the image is treated as a block element */
       margin: 0 auto; /* Center the image horizontally within the container */
     }
-  .grid-container {
+  .grid-container1 {
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
   }
 
+  
   .grid-item {
     text-align: left;
   }
