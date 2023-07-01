@@ -33,7 +33,7 @@ h1{
     line-height: 1.2;
   }
   .icon-link img {
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
   }
   
   .icon-link:hover img {
