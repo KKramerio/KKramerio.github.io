@@ -94,5 +94,19 @@ h1{
     height: auto;
     
   }
+/* Styles for the footer */
+.footer {
+  color:#d70d0d;
+  font-family: "itc-slimbach", sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
+  width: 100%;
+  padding: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
 
   
