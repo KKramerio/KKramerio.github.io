@@ -10,5 +10,5 @@ function changeImage(images) {
       }
     }
     updateImage();
-    setInterval(updateImage, 3000); //Change image every 3 sec
+    setInterval(updateImage, 2000); //Change image every 3 sec
   }
