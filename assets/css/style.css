@@ -114,6 +114,14 @@ h1{
     
 }
 
+#zoomable-image {
+  width: 400px; /* Set the initial size of the image */
+  transition: transform 0.5s ease; /* Add a smooth transition effect */
+}
 
+#zoomable-image.zoomed {
+  transform: scale(2); /* Set the zoomed-in scale level */
+  cursor: zoom-out; /* Show a zoom-out cursor when zoomed in */
+}
 
   

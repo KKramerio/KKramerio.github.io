@@ -12,3 +12,8 @@ function changeImage(images) {
     updateImage();
     setInterval(updateImage, 2000); //Change image every 3 sec
   }
+
+  function toggleZoom() {
+    var image = document.getElementById("zoomable-image");
+    image.classList.toggle("zoomed");
+  }
