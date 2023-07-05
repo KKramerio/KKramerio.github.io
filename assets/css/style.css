@@ -42,13 +42,13 @@ h1{
     line-height: 1.2;
   }
   p.intro{
-    color: #120000; /* Text color */
+    color: #e04343; /* Text color */
     font-family: "itc-slimbach", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 28px; /* Font size */
     text-align: left; /* Text alignment */
-    /* Additional styles you can modify or add */
+    
   }
 
   .icon-link img {
