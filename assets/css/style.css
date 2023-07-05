@@ -2,7 +2,7 @@
 h1{
   font-family: itc-slimbach, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
     font-style: normal;
     font-size: 28px; /* Font size */
     text-align: left; /* Text alignment */
@@ -42,11 +42,11 @@ h1{
     line-height: 1.2;
   }
   p.intro{
-    color: #e04343; /* Text color */
+    color: #da5728; /* Text color */
     font-family: "itc-slimbach", sans-serif;
     font-weight: 500;
-    font-style: normal;
-    font-size: 28px; /* Font size */
+    font-style: italic;
+    font-size: 21px; /* Font size */
     text-align: left; /* Text alignment */
     
   }
