@@ -42,13 +42,22 @@ h1{
     line-height: 1.2;
   }
   p.intro{
-    color: #da5728; /* Text color */
+    color: #ff4b37; /* Text color */
     font-family: "itc-slimbach", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 21px; /* Font size */
-    text-align: left; /* Text alignment */
+    font-size: 28px; 
+    text-align: left; 
     
+  }
+  p.project{
+    color: #393939;
+    font-family: "itc-slimbach", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px; /* Font size */
+    text-align: left; /* Text alignment */
+
   }
 
   .icon-link img {
