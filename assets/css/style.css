@@ -128,6 +128,7 @@ h1{
   position: relative;
   padding-bottom: 56.25%; /* Aspect ratio: 16:9 (9 / 16 = 0.5625) */
   height: 0;
+  max-width: 100%;
 }
 
 .video-container video {
