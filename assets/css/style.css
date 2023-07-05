@@ -124,4 +124,14 @@ h1{
   cursor: zoom-out; /* Show a zoom-out cursor when zoomed in */
 }
 
-  
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio: 16:9 (9 / 16 = 0.5625) */
+  height: 0;
+}
+
+.video-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
