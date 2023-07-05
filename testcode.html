@@ -94,7 +94,7 @@ Test Code Page
         
         
   </div>
-<!-- Slideshow -->
+<!-- link to external publication -->
 <div class="grid-container2">
   <div class="grid-item" target="_blank">
     <a href="https://issuu.com/karenckramer/docs/seaempress_cyan" class="grid-item">
@@ -102,7 +102,7 @@ Test Code Page
           <h4 class="title">Link to digital publication</h4>
       </a>  
     </div> 
-  
+  <!-- Slideshow -->
 <div class="grid-item">
     <div class="slideshow-container">
       <div id="slideshow">
@@ -111,6 +111,7 @@ Test Code Page
     </div>
   </div>
 </div>
+<!--responsive video nested in a div container-->
 <div class="grid-container1">
     <div class="grid-item">
         <div class="video-container">
@@ -121,17 +122,19 @@ Test Code Page
           </div>
         </div>
 </div>
-
-  <img id="zoomable-image" src="https://kkramer.io/assets/images/seaempress/se09.jpg" onclick="toggleZoom()">
-
-
-
-<script>
+<!--zoomable image in a grid container-->
+<div class="grid-container1">
+<div class="grid-item">
+    <img id="zoomable-image" src="https://kkramer.io/assets/images/seaempress/se09.jpg" onclick="toggleZoom()">
+</div>
+</div>
+  <script>
   var images = ['https://kkramer.io/assets/images/se01.jpg', 'https://kkramer.io/assets/images/se02.jpg', 'https://kkramer.io/assets/images/se03.jpg', 'https://kkramer.io/assets/images/se04.jpg']; // Add your image URLs here
   changeImage(images);
 </script>
 <br>
 <br>
+<!--footer in a grid container-->
 <div class="grid-container2">
   <div class="grid-item">
 <footer>&copy; 2023 k kramer. All rights reserved.</footer>
